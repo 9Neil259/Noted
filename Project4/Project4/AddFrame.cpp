@@ -21,7 +21,7 @@ AddFrame::AddFrame(const wxString& title)
     sqlite3_exec(m_db, "CREATE TABLE IF NOT EXISTS data (id INTEGER PRIMARY KEY, value1 TEXT, value2 TEXT, value3 TEXT)", nullptr, nullptr, nullptr);
 }
 
-void ThirdFrame::OnSaveButtonClicked(wxCommandEvent& event)
+void AddFrame::OnSaveButtonClicked(wxCommandEvent& event)
 {
     wxString data1 = m_textCtrl1->GetValue();
     wxString data2 = m_textCtrl2->GetValue();
