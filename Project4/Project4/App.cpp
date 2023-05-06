@@ -2,12 +2,12 @@
 
 #include <wx/wx.h>
 
-#include "Noted.hpp"
+#include "MainFrame.hpp"
 
 bool App::OnInit() {
-	NotedFrame* notedFrame = new  NotedFrame("Noted");
-	notedFrame->Show();
-	return true;
+    MainFrame* mainFrame = new MainFrame("Hauptfenster");
+    mainFrame->Show();
+    return true;
 }
 
 wxIMPLEMENT_APP(App);

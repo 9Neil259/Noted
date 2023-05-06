@@ -1,2 +1,5 @@
 ﻿  App.cpp
 C:\Users\saiki\Downloads\wxWidgets-3.2.2.1\include\wx\platform.h(159,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "wx/setup.h": No such file or directory
+  Noted.cpp
+C:\Users\saiki\Downloads\wxWidgets-3.2.2.1\include\wx\platform.h(159,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "wx/setup.h": No such file or directory
+  Code wird generiert...
