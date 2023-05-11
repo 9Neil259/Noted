@@ -3,7 +3,7 @@ WX_CXXFLAGS := $(shell $(WX_CONFIG) --cxxflags)
 WX_LIBS := $(shell $(WX_CONFIG) --libs)
 
 APPLICATION := controls
-OBJECTS := MainFrame.o App.o  AddFrame.o SearchFrame.o DeleteFrame.o
+OBJECTS := MainFrame.o App.o  AddFrame.o SearchFrame.o DeleteFrame.o Unittest.o
 
 all: $(APPLICATION)
 
