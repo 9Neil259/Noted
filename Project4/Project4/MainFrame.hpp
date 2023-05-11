@@ -1,8 +1,9 @@
 #ifndef MAINFRAME_HPP
 #define MAINFRAME_HPP
 
-#include "AnotherFrame.hpp"
-#include "ThirdFrame.hpp"
+#include "AddFrame.hpp"
+#include "DeleteFrame.hpp"
+#include "SearchFrame.hpp"
 #include <wx/wx.h>
 
 class MainFrame : public wxFrame
