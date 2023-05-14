@@ -8,7 +8,7 @@ DeleteFrame::DeleteFrame(const wxString& title)
         m_textCtrl2 = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize);
         m_textCtrl3 = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize);
         m_deleteButton = new wxButton(this, wxID_ANY, wxT("Löschen"), wxDefaultPosition, wxDefaultSize);
-        m_deleteButton->Bind(wxEVT_BUTTON, &AnotherFrame::OnDeleteButtonClicked, this);
+        m_deleteButton->Bind(wxEVT_BUTTON, &DeleteFrame::OnDeleteButtonClicked, this);
 
         wxBoxSizer* sizer = new wxBoxSizer(wxVERTICAL);
         sizer->Add(m_textCtrl1, wxSizerFlags().Border(wxALL, 10).Expand());

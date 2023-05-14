@@ -7,7 +7,7 @@ SearchFrame::SearchFrame(const wxString& title)
     m_textCtrl2 = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize);
     m_textCtrl3 = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize);
     m_searchButton = new wxButton(this, wxID_ANY, wxT("Search"), wxDefaultPosition, wxDefaultSize);
-    m_searchButton->Bind(wxEVT_BUTTON, &AnotherFrame::OnSearchButtonClicked, this);
+    m_searchButton->Bind(wxEVT_BUTTON, &SearchFrame::OnSearchButtonClicked, this);
     m_outputTextCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize,
         wxTE_MULTILINE | wxTE_READONLY);
 

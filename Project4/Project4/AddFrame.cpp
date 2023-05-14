@@ -7,7 +7,7 @@ AddFrame::AddFrame(const wxString& title)
     m_textCtrl2 = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize);
     m_textCtrl3 = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize);
     m_saveButton = new wxButton(this, wxID_ANY, wxT("Speichern"), wxDefaultPosition, wxDefaultSize);
-    m_saveButton->Bind(wxEVT_BUTTON, &ThirdFrame::OnSaveButtonClicked, this);
+    m_saveButton->Bind(wxEVT_BUTTON, &AddFrame::OnSaveButtonClicked, this);
 
     wxBoxSizer* sizer = new wxBoxSizer(wxVERTICAL);
     sizer->Add(m_textCtrl1, wxSizerFlags().Border(wxALL, 10).Expand());

@@ -12,9 +12,9 @@ public:
     MainFrame(const wxString& title);
 
 private:
-    void OnButtonADDClicked(wxCommandEvent& event);
-    void OnButtonDELETEClicked(wxCommandEvent& event);
-    void OnButtonSEARCHClicked(wxCommandEvent& event);
+    void OnButtonAddClicked(wxCommandEvent& event);
+    void OnButtonDeleteClicked(wxCommandEvent& event);
+    void OnButtonSearchClicked(wxCommandEvent& event);
 
     wxButton* m_buttonadd;
     wxButton* m_buttondelete;
