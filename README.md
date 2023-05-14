@@ -48,7 +48,7 @@ Click the "Delete" button in the main window (MainFrame) to open a new window (D
 Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
 
-License
+#License
 This project is licensed under the GPL-3.0 license.
 
 
