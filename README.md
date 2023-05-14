@@ -16,17 +16,17 @@ Noted is a wxWidgets application that allows users to interact with a database u
 - CMake  - Optional: only required if you choose to build using CMake
 -
 
-##Usage
+## Usage
  Click the "Search" button in the main window (MainFrame) to open a new window (AnotherFrame) where you enter data to display the data from the database.
 
 Click the "Add" button in the main window (MainFrame) to open a new window (AddFrame) where you can enter data to add a new record to the database.
 
 Click the "Delete" button in the main window (MainFrame) to open a new window (DeleteFrame) where you can enter data to delete matching records from the database.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository.
 
-##License
+## License
 This project is licensed under the GPL-3.0 license.
 
 
