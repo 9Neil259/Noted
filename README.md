@@ -30,8 +30,6 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 This project is licensed under the GPL-3.0 license.
 
 
-Feel free to modify the contents according to your project's specific requirements and details
-
 ## Getting Started
 
 1. Clone the repository:
