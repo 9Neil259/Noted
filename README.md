@@ -37,7 +37,7 @@ b. Using your preferred build system (e.g., Visual Studio, Xcode, etc.)
 3.Run the application:
 
 ./Noted
-```shell
+shell´´´
 ##Usage
  Click the "Search" button in the main window (MainFrame) to open a new window (AnotherFrame) where you enter data to display the data from the database.
 
