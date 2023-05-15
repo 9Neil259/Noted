@@ -2,7 +2,7 @@ WX_CONFIG := wx-config
 WX_CXXFLAGS := $(shell $(WX_CONFIG) --cxxflags)
 WX_LIBS := $(shell $(WX_CONFIG) --libs)
 
-APPLICATION := controls
+APPLICATION := Noted
 OBJECTS := MainFrame.o App.o  AddFrame.o SearchFrame.o DeleteFrame.o Unittest.o
 
 all: $(APPLICATION)
@@ -16,4 +16,3 @@ $(OBJECTS): %.o: %.cpp
 .PHONY: clean
 clean:
 	find . -name '*~' -o -name '*.o' -o -name $(APPLICATION) | xargs rm
-
