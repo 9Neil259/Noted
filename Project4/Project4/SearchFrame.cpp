@@ -55,4 +55,3 @@ SearchFrame::~SearchFrame()
 {
     sqlite3_close(m_db);
 }
-}
