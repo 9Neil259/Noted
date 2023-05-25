@@ -25,7 +25,7 @@ void MainFrame::OnButtonAddClicked(wxCommandEvent& event)
     Hide();
 
     AddFrame* addFrame = new AddFrame("Add");
-    AddFrame->Show();
+    addFrame->Show();
 }
 
 void MainFrame::OnButtonDeleteClicked(wxCommandEvent& event)
@@ -41,5 +41,5 @@ void MainFrame::OnButtonSearchClicked(wxCommandEvent& event)
     Hide();
 
     SearchFrame* searchFrame = new SearchFrame("Search");
-    SearchFrame->Show();
+    searchFrame->Show();
 }
