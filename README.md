@@ -36,19 +36,21 @@ This project is licensed under the GPL-3.0 license.
 ```shell
 git clone https://github.com/9Neil259/Noted.git
 shell```
+
 2.Build the application:
 
 a. Using CMake (Recommended):
 ```shell
+
 cd MyApp
 mkdir build
 cd build
 cmake ..
 make
-
+shell```
 b. Using your preferred build system (e.g., Visual Studio, Xcode, etc.)
 
 3.Run the application:
 ```shell
 ./Noted
-
+shell```
