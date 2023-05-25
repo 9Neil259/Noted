@@ -35,7 +35,7 @@ This project is licensed under the GPL-3.0 license.
 
 ```shell
 git clone https://github.com/9Neil259/Noted.git
-
+shell```
 2.Build the application:
 
 a. Using CMake (Recommended):
