@@ -14,7 +14,6 @@ Noted is a wxWidgets application that allows users to interact with a database u
 - wxWidgets library 
 - SQLite library 
 - CMake  - Optional: only required if you choose to build using CMake
--
 
 ## Usage
  Click the "Search" button in the main window (MainFrame) to open a new window (AnotherFrame) where you enter data to display the data from the database.
