@@ -33,9 +33,8 @@ This project is licensed under the GPL-3.0 license.
 
 1. Clone the repository:
 
-```shell
-git clone https://github.com/9Neil259/Noted.git
-shell```
+
+`git clone https://github.com/9Neil259/Noted.git`
 
 2.Build the application:
 
@@ -47,7 +46,7 @@ mkdir build
 cd build
 cmake ..
 make
-shell```
+
 b. Using your preferred build system (e.g., Visual Studio, Xcode, etc.)
 
 3.Run the application:
