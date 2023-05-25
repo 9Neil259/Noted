@@ -39,17 +39,16 @@ This project is licensed under the GPL-3.0 license.
 2.Build the application:
 
 a. Using CMake (Recommended):
-```shell
 
-cd MyApp
+
+`cd MyApp
 mkdir build
 cd build
 cmake ..
-make
+make`
 
 b. Using your preferred build system (e.g., Visual Studio, Xcode, etc.)
 
 3.Run the application:
-```shell
-./Noted
-shell```
+
+`./Noted`
