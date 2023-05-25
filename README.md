@@ -14,7 +14,6 @@ Noted is a wxWidgets application that allows users to interact with a database u
 - wxWidgets library 
 - SQLite library 
 - CMake  - Optional: only required if you choose to build using CMake
--
 
 ## Usage
  Click the "Search" button in the main window (MainFrame) to open a new window (AnotherFrame) where you enter data to display the data from the database.
@@ -34,22 +33,22 @@ This project is licensed under the GPL-3.0 license.
 
 1. Clone the repository:
 
-```shell
-git clone https://github.com/9Neil259/Noted.git
+
+`git clone https://github.com/9Neil259/Noted.git`
 
 2.Build the application:
 
 a. Using CMake (Recommended):
 
-cd MyApp
+
+`cd MyApp
 mkdir build
 cd build
 cmake ..
-make
+make`
 
 b. Using your preferred build system (e.g., Visual Studio, Xcode, etc.)
 
 3.Run the application:
 
-./Noted
-
+`./Noted`
