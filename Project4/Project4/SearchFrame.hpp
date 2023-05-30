@@ -8,6 +8,7 @@ class SearchFrame : public wxFrame
 {
 public:
     SearchFrame(const wxString& title);
+    ~SearchFrame();
 private:
     void OnSearchButtonClicked(wxCommandEvent& event);
 
