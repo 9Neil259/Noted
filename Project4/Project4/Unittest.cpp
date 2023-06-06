@@ -28,7 +28,7 @@ public:
 
         // Simulate button click event
         wxCommandEvent event(wxEVT_BUTTON, frame->GetSearchButton()->GetId());
-        frame->OnSearchButtonClicked(event);
+        frame->OnButtonSearchClicked(event);
 
         // Ensure that the output text control contains the expected output
         wxString expectedOutput = "ID: 1\nValue1: Test1\nValue2: Test2\nValue3: Test3\n\n";
